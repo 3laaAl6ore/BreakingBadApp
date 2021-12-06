@@ -14,7 +14,18 @@ const  Qoutes = (props) => {
 
 export const screenOptions = navData =>{
     return{
-        headerTitle:'Qoutes'
+        headerStyle: {
+            backgroundColor: 'blue'
+            
+        
+        },
+
+        headerTitle:'QOUTES',
+          headerTintColor: '#fff',
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
     }
 }
 

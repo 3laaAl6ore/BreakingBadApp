@@ -14,7 +14,17 @@ const  Episodes = (props) => {
 
 export const screenOptions = navData =>{
     return{
-        headerTitle:'Episodes'
+        headerStyle: {
+            backgroundColor: 'blue'
+            
+        
+        },
+        headerTitle:'EPISODES',
+          headerTintColor: '#fff',
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
     }
 }
 

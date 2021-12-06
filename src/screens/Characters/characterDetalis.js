@@ -14,7 +14,17 @@ const  characterDetalis = (props) => {
 
 export const screenOptions = navData =>{
     return{
-        headerTitle:'characterDetalis'
+        headerStyle: {
+            backgroundColor: 'blue'
+            
+        
+        },
+        headerTitle:'characterDetalis',
+          headerTintColor: '#fff',
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
     }
 }
 

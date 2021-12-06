@@ -14,7 +14,18 @@ const  EpisodeDetalis = (props) => {
 
 export const screenOptions = navData =>{
     return{
-        headerTitle:'EpisodeDetalis'
+        headerStyle: {
+            backgroundColor: 'blue'
+            
+        
+        },
+
+        headerTitle:'EPISODESDETALIS',
+          headerTintColor: '#fff',
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
     }
 }
 
