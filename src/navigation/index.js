@@ -24,7 +24,7 @@ export const CharacterStack = ()=>{
     return(
         <CharacterStackNavigator.Navigator>
 
-            <CharacterStackNavigator.Screen name='Characters' component={CharacterScreen} options={CharacterScreenOptions}/>
+            <CharacterStackNavigator.Screen name='index' component={CharacterScreen} options={CharacterScreenOptions}/>
 
             <CharacterStackNavigator.Screen name='characterDetalis' component={CharacterDetalisScreen} options={CharacterDetalisScreenOptions}/>
          </CharacterStackNavigator.Navigator>)
@@ -35,7 +35,7 @@ const EpisodesStackNavigator = createStackNavigator();
 export const  EpisodesStack = ()=>{
     return(
         <EpisodesStackNavigator.Navigator>
-            <EpisodesStackNavigator.Screen name='Episodes' component={EpisodesScreen} options={EpisodesScreenOptions} />
+            <EpisodesStackNavigator.Screen name='index' component={EpisodesScreen} options={EpisodesScreenOptions} />
             <EpisodesStackNavigator.Screen name='EpisodesDetalis' component={EpisodesDetalisScreen} options={EpisodesDetalisScreenOptions}/>
         </EpisodesStackNavigator.Navigator>
     )
@@ -46,7 +46,7 @@ const QoutesStackNavigator =  createStackNavigator();
 export const QoutesStack = ()=>{
     return(
             <QoutesStackNavigator.Navigator>
-                <QoutesStackNavigator.Screen name='Qoutes' component={QuotesScreen} options={QuotesScreenOptions}/>
+                <QoutesStackNavigator.Screen name='index' component={QuotesScreen} options={QuotesScreenOptions}/>
             </QoutesStackNavigator.Navigator>
     )
 }
