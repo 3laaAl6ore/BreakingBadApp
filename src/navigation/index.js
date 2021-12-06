@@ -6,15 +6,15 @@ import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import Entypo from 'react-native-vector-icons/Entypo';
 // screnns 
 //Characters
-import CharacterScreen ,{screenOptions as CharacterScreenOptions }from '../screens/Characters';
+import CharacterScreen ,{screenOptions as CharacterScreenOptions }from '../screens/Characters/index';
 import CharacterDetalisScreen ,{screenOptions as CharacterDetalisScreenOptions }from '../screens/Characters/characterDetalis';
 
 // Episodes
-import EpisodesScreen ,{screenOptions as EpisodesScreenOptions }from '../screens/Episodes';
+import EpisodesScreen ,{screenOptions as EpisodesScreenOptions }from '../screens/Episodes/index';
 import EpisodesDetalisScreen ,{screenOptions as EpisodesDetalisScreenOptions }from '../screens/Episodes/EpisodeDetalis';
 
 // Quotes
-import QuotesScreen ,{screenOptions as QuotesScreenOptions }from '../screens/Quotes';
+import QuotesScreen ,{screenOptions as QuotesScreenOptions }from '../screens/Quotes/index';
 
 // Create Const For Each Stack
 
