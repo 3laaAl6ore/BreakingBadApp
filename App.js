@@ -7,22 +7,22 @@ export default function App() {
 
 
   return (
-      <SafeAreaView style={Style.container}>
+      <View style={Style.container}>
 
-        <View style={{width: '30%',height: '10%'}}>
+        <View style={{width: '100%',height: '20%',alignItems:'center',padding:5,paddingTop:60}}>
         <Image style={Style.Logo}
          source={require('./src/public/pic/Logo.jpg')} />  
         </View>
 
-        <View style={{width: '100%',height: '90%'}}>
+        <View style={{width: '100%',height: '86%'}}>
 
-        <NavigationContainer style={{width: '100%',height: '100%'}}>
+        <NavigationContainer >
     
     
         <AppBottomBar />
       </NavigationContainer>
 
         </View>
-       </SafeAreaView>
+       </View>
   );
 }

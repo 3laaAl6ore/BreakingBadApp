@@ -12,35 +12,35 @@ const Character = (props) => {
     });
     const serverData = await response.json();
     setData(serverData);
-    console.log("DTA: " + JSON.stringify(data));
+    //console.log("DTA: " + JSON.stringify(data));
   };
   useEffect(() => {
     loadData();
   }, []);
-  console.log(data);
+  //console.log(data);
 
   return (
     <View style={Style.container}>
       <FlatList
         data={data}
         keyExtractor={(item) => item.char_id}
-        renderItem={(categoryItem) => (
+        renderItem={(characterItem) => (
           <TouchableOpacity
           onPress={() => {
             props.navigation.navigate('characterDetalis', {
-              CharacterDList: categoryItem.item,
+              CharacterDList: characterItem.item,
             });
           }}
         >
           <View style={Style.FlatListCharactersStyle}>
             
             <Image
-              source={{ uri: categoryItem.item.img }}
+              source={{ uri: characterItem.item.img }}
               style={Style.CharacterImg}
             />
             <View>
-            <Text style={Style.CharacterName}>{categoryItem.item.name}</Text>
-            <Text style={Style.nicknameStyle}>{categoryItem.item.nickname}</Text>
+            <Text style={Style.CharacterName}>{characterItem.item.name}</Text>
+            <Text style={Style.nicknameStyle}>{characterItem.item.nickname}</Text>
             </View>
          </View>
          </TouchableOpacity>

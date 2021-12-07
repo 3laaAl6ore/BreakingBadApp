@@ -77,7 +77,7 @@ export const AppBottomBar = ()=>{
                     tabBarLabel :'Characters',
                     tabBarIcon:({focused ,color,size}) =>
                     {
-                        const iconSize = focused  ?  size=27: size = 26
+                        const iconSize = focused  ?  size=29: size = 26
                         const iconcColor = focused  ? color='white':color='black'
                         const iconShape = focused  ? name='account-group-outline':name='account-group'
                         return(
@@ -97,7 +97,7 @@ export const AppBottomBar = ()=>{
                     tabBarLabel :'Episodes',
                     tabBarIcon:({focused,color,size}) =>
                     {
-                        const iconSize = focused ?  size=27: size = 26
+                        const iconSize = focused ?  size=25: size = 25
                         const iconcColor = focused ? color='white':color='black'
                         const iconShape = focused ? name = 'screen-desktop':name = 'screen-desktop'
                         return(
