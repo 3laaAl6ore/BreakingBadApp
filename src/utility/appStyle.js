@@ -1,14 +1,16 @@
 import { StyleSheet } from 'react-native';
 
+
 export default  StyleSheet.create({
-container: {
+ container: {
 flex: 1,
 justifyContent: 'center',
-backgroundColor:'white',
+backgroundColor:'#DCD0D0',
 },
 Logo:{
     width:'60%',
     height:'100%',
+    backgroundColor:'white'
     
 },
 FlatListCharactersStyle:{
@@ -22,11 +24,10 @@ FlatListCharactersStyle:{
 },
 FlatListEpisodeStyle:{
     backgroundColor:'#fff',
-    margin:8,
-    borderRadius:30,
+    margin:3,
+    borderRadius:18,
     width:'100%',
     flexDirection:'row',
-    shadowRadius:10,
     alignItems:'center',
 },
 CharacterName:{
@@ -38,8 +39,10 @@ CharacterName:{
 CharacterImg:{
     resizeMode: 'contain',
     height: 150,
-    width: 150,
-    borderRadius:25
+    width: 140,
+    borderRadius:25,
+ //   backgroundColor:'blue',
+    
 },
 nicknameStyle:{
     fontSize:12
